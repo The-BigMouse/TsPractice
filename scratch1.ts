@@ -63,4 +63,10 @@ function greet() : void {
     alert("Welcome User:::::::::::");
 }
 
+function greetMe(person: string, date: Date) {
+    console.log(`Hello ${person}, today is ${date.toDateString()}!`);
+  }
+   
+  greetMe("Ritik", new Date());
+
 // ? Null : 
